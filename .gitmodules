@@ -1,0 +1,15 @@
+[submodule "plugins/EmbedMessages"]
+	path = plugins/EmbedMessages
+	url = https://github.com/MMPlugins/EmbedMessages.git
+[submodule "plugins/HexedHelp"]
+	path = plugins/HexedHelp
+	url = https://github.com/MMPlugins/HexedHelp.git
+[submodule "plugins/LogSearch"]
+	path = plugins/LogSearch
+	url = https://github.com/MMPlugins/LogSearch.git
+[submodule "plugins/Ping"]
+	path = plugins/Ping
+	url = https://github.com/MMPlugins/Ping.git
+[submodule "plugins/modmailbot-formatter"]
+	path = plugins/modmailbot-formatter
+	url = https://github.com/funkyhippo/modmailbot-formatter.git
