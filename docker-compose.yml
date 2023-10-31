@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    build: .
+    volumes:
+      - type: bind
+        source: ./config.ini
+        target: /app/config.ini
+volumes:
+  config:
+networks:
+  default:
+      name: "host"
