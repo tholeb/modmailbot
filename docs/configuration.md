@@ -199,6 +199,14 @@ commandAliases.mv = move
 # !x is an alias/shortcut for !close
 commandAliases.x = close
 ```
+Note that you can combine different commands and parameters together:
+
+```ini
+# !replysus is a alias/shortcut for !reply and !suspend
+commandAliases.replysus = reply Thank you for this, we will suspend this thread whilst we conduct our investigations.
+# The !suspend shortcut is implemented here
+commandAliases.replysus = suspend
+```
 
 #### enableGreeting
 **Default:** `off`  
@@ -409,7 +417,7 @@ This message is also used for timed blocks if timedBlockMessage is not set.
 **Default** *None*  
 Message to send to a user when they are blocked for a specific duration.
 * You can use `{duration}` in the text to include the duration (e.g. `4 weeks, 2 days`)
-* You can use `{timestamp}` in the text to create a Discord timestamp of the time the user is blocked until (e.g. `&lt;t:{timestamp}:f&gt;` would become `June 3, 2022 at 11:50 PM`)
+* You can use `{timestamp}` in the text to create a Discord timestamp of the time the user is blocked until (e.g. `<t:{timestamp}:f>` would become `June 3, 2022 at 11:50 PM`)
 
 #### unblockMessage
 **Default** *None*  
